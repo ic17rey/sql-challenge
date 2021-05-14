@@ -1,10 +1,10 @@
 --Drop any existing tables with the names to use for the challenge
-DROP TABLE if exists titles;
-DROP TABLE if exists departments;
-DROP TABLE if exists employees;
-DROP TABLE if exists dept_emp;
-DROP TABLE if exists dept_manager;
-DROP TABLE if exists salaries;
+-- DROP TABLE if exists titles;
+-- DROP TABLE if exists departments;
+-- DROP TABLE if exists employees;
+-- DROP TABLE if exists dept_emp;
+-- DROP TABLE if exists dept_manager;
+-- DROP TABLE if exists salaries;
 
 -- Create Title table
 CREATE TABLE titles (
@@ -56,4 +56,10 @@ CREATE TABLE salaries (
     FOREIGN KEY(emp_no) REFERENCES employees(emp_no)
 );
 
-SELECT * FROM salaries;
+-- View the tables
+-- SELECT * FROM titles;
+-- SELECT * FROM departments;
+-- SELECT * FROM employees;
+-- SELECT * FROM dept_emp;
+-- SELECT * FROM dept_manager;
+-- SELECT * FROM salaries;
