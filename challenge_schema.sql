@@ -1,11 +1,3 @@
---Drop any existing tables with the names to use for the challenge
--- DROP TABLE if exists titles;
--- DROP TABLE if exists departments;
--- DROP TABLE if exists employees;
--- DROP TABLE if exists dept_emp;
--- DROP TABLE if exists dept_manager;
--- DROP TABLE if exists salaries;
-
 -- Create Title table
 CREATE TABLE titles (
     title_id        VARCHAR(5)      PRIMARY KEY    NOT NULL,
