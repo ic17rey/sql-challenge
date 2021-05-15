@@ -1,5 +1,6 @@
 # Copying code from python .gitignore from previous repo 
 # to include .ipynb checkpoints in git ignore
+config.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
