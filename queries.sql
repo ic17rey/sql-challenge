@@ -51,16 +51,6 @@ JOIN dept_emp de
 JOIN departments dept_no
 	ON (de.dept_no d.dept_no);
 
-/* Want to ask how Using works when there are three tables 
-SELECT 
-    e.emp_no, e.last_name, e.first_name, d.dept_name
-FROM employees e
-JOIN dept_emp de
-USING (emp_no)
-JOIN departments d
-USING (dept_no); */
-
-
 -- 5. List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
 SELECT 
 	first_name,
